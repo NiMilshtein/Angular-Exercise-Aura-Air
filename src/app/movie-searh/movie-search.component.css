@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 5px;
+
+
+}
+input{
+    border-radius: 20%;
+
+}
+button{
+    border-radius: 20%;
+
+}

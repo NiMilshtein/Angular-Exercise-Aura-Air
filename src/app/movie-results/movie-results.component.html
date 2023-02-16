@@ -1,0 +1,15 @@
+
+<div class="card d-flex mt-3" style="width: 18rem; ">
+    <img  src="{{ movie.poster? movie.poster :'https://img.freepik.com/free-vector/404-error-with-landscape-concept-illustration_114360-7888.jpg?w=2000'  }}" class="card-img-top movieposter" alt="...">
+    <div class="card-body">
+      <h4 class="card-title"> Name: {{ movie.title ||"not found" }}</h4>
+      <h5 class="card-text"> Type: {{ movie.type||"not found" }}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Movie Title: {{ movie.title||"not found" }}</li>
+      <li class="list-group-item"> Released Year: {{ movie.year ||"not found" }}</li>
+    </ul>
+  </div>
+
+
+  
